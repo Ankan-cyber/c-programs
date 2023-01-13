@@ -24,9 +24,10 @@ This repository contains a collection of C programs that I have created. Each pr
 
 Each program can be compiled and run using the GCC compiler. For example, to run the Hello World program, use the following command:
 
+```
 gcc hello_world.c -o hello_world
 ./hello_world
-
+```
 
 Make sure to replace "hello_world.c" with the name of the program you want to run.
 
@@ -34,6 +35,3 @@ Make sure to replace "hello_world.c" with the name of the program you want to ru
 
 If you want to contribute to this repository, feel free to submit a pull request with your own programs or improvements to existing ones.
 
-## License
-
-This repository is licensed under the MIT License.

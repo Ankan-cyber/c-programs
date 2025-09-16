@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 getSwap(int *a, int *b);
+
 int main(){
 int x,y;
 printf("Enter x and y values to swap:");

@@ -3,7 +3,7 @@ int main(){
 FILE *fp;
 char ch;
 int count=0;
-fp = fopen("abcd.txt","r");
+fp = fopen("files/abcd.txt","r");
 if (fp==NULL)
 {
     printf("file can't be opened");

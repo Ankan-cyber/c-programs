@@ -6,7 +6,7 @@ int main()
 	printf("Input week number(1-7):");
 	scanf("%d",&week);
 	switch(week){
-		case 1:
+		case 1:	
 		printf("Monday");
 		break;
 		case 2:

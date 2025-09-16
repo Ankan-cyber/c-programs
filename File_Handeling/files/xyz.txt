@@ -2,7 +2,6 @@
 2 Raju 19
 3 Kaju 36
 4 Siju 14
-5 Fchi 27
 6 CHarlie 16
 7 Jenson 20
 8 Adele 27

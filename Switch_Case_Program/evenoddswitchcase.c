@@ -6,8 +6,7 @@ int main()
     int num,r;
     printf("Enter an number: ");
     scanf("%d", &num);
-  r=num%2;
-    switch(r){
+    switch(num%2){
     case 0:
        printf("%d is even number.",num);
        break;

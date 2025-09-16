@@ -16,6 +16,6 @@ printf("Thank you. Your total is: $%d\n",quantity*10);
 printf("How would you like to pay? Cash, Credit card, Debit card or Upi\n");
 scanf("%s",&payment);
 printf("Ok Thanks\n");
-printf("Sounds good %s, we'll have your %d %s ready for you in a moment\a\n",name,quantity,coffee);
+printf("Sounds good %s, we'll have your %d %s ready for you in a moment\n",name,quantity,coffee);
 return 0;
 }

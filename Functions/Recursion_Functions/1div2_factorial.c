@@ -4,23 +4,23 @@ int main(){
 float n;
 float rsl;
 float sum(float);
-float facto(float);
+float fuck(float);
 printf("Enter limit: ");
 scanf("%f",&n);
 rsl = sum(n);
-printf("Answer = %.3f\n",rsl);
+printf("Answer = %.3f",rsl);
 return 0;
 }
-float facto(float n){
+float fuck(float n){
     if(n ==1)
     return 1;
     else
-    return n*facto(n-1);
+    return n*fuck(n-1);
 }
 
 float sum(float n){
     if(n == 1)
     return 1;
     else 
-    return n/facto(n)+sum(n-1);
+    return n/fuck(n)+sum(n-1);
 }

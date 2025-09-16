@@ -7,7 +7,7 @@ int num, guess, numgusses=1;
 char u;
 srand(time(0));
 num = rand()%100+1;
-printf("......guess The Number.....\n ....Game By aNKAN....\n");
+printf("......guess The Number.....\n ....Game By ANKAN....\n");
 printf("Press Y to Play!\n");
 scanf("%c",&u);
 if (u == 'Y' || u == 'y')
@@ -23,7 +23,7 @@ do{
         printf("Higher number please\n");
     }
     else{
-        printf("You guessed in %d attempts\a\n", numgusses);
+        printf("You guessed in %d attempts\n", numgusses);
     }
     numgusses++;
 }while(guess!= num);

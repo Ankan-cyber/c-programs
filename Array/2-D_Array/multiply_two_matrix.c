@@ -44,7 +44,7 @@ if(row_len==col_len){
     {
          for ( j = 0; j < row_len; j++)
          {
-            printf("%d",&C[i][j]);
+            printf("%d",C[i][j]);
          }
          printf("\n");
     }
